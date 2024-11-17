@@ -24,7 +24,7 @@ const App = () => {
           return;
         }
 
-        const response = await axios.post("https://molcompute-bcbmhphmb7h5e0cy.northeurope-01.azurewebsites.net/optimize", moleculeData);
+        const response = await axios.post("http://localhost:5000/optimize", moleculeData);
 
         // Set optimized molecule in state to display it
         setOptimizedMolecule(response.data.optimized_file1);
