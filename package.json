@@ -24,5 +24,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://molcompute-bcbmhphmb7h5e0cy.northeurope-01.azurewebsites.net"
+  "proxy": "https://molcompute-bcbmhphmb7h5e0cy.northeurope-01.azurewebsites.net",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }
