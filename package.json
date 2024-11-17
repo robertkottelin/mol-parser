@@ -23,5 +23,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://molcompute-bcbmhphmb7h5e0cy.northeurope-01.azurewebsites.net"
 }
